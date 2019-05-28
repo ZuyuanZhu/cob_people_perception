@@ -65,7 +65,9 @@
 #include <ros/ros.h>
 #include <ros/package.h>
 #include "cob_openni2_tracker/body_tracker.h"
-#include "openni2_camera/openni2_device_manager.h"
+//#include "openni2_camera/openni2_device_manager.h"
+#include "/home/zhu/catkin_ws/src/openni2_camera/include/openni2_camera/openni2_device_manager.h"
+
 
 //PLUGINLIB_EXPORT_CLASS(body_tracker_nodelet, nodelet::Nodelet);
 class BodyTrackerNodelet : public nodelet::Nodelet
